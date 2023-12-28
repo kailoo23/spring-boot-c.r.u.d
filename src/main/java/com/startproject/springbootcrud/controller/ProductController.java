@@ -3,6 +3,7 @@ package com.startproject.springbootcrud.controller;
 import com.startproject.springbootcrud.entity.Product;
 import com.startproject.springbootcrud.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -30,7 +31,7 @@ public class ProductController {
         return service.getProducts();
     }
 
-    @GetMapping("/productById/{id}")
+    @GetMapping(path = "/productById/{id}",produces= MediaType.APPLICATION_XML_VALUE)
     public Product findProductById(@PathVariable int id)
     {
         return service.getProductById(id);
