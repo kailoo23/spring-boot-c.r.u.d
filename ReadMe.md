@@ -10,7 +10,7 @@ This project demonstrates how to create a basic CRUD application using Spring Bo
 
 Before running this project, make sure you have the following installed:
 
-- Java 8 or higher
+- Java 11 or higher
 - Maven
 - MySQL
 
@@ -19,4 +19,4 @@ Before running this project, make sure you have the following installed:
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/your-username/spring-boot-crud.git
+   git clone https://github.com/kailoo23/spring-boot-crud.git
