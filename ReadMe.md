@@ -10,9 +10,9 @@ This project demonstrates how to create a basic CRUD application using Spring Bo
 
 Before running this project, make sure you have the following installed:
 
-- Java 11 or higher
-- Maven
-- MySQL
+>- Java 11 or higher
+>- Maven
+>- MySQL
 
 ## Getting Started
 
